@@ -1,0 +1,14 @@
+var b = 50
+var c = 5
+
+loop 3 times
+
+	if ( c > 10 ) then
+		println c
+	else
+		println c * b
+	endif
+
+endloop
+
+println c
